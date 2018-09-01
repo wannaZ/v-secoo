@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<div id="register-first">
+			<div class="first-con">
+				<img src="images/logo.png"/>
+				<ul>
+					<li><a href="index.html">寺库首页</a></li>
+					<li><a href="#">收藏寺库</a></li>
+					<li><a href="#">寺库APP</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="register-main">
+			<div class="main-con">
+				<div class="main-none"></div>
+				<div class="main-register">
+					<div class="main-register-input">							
+						<form action="php/register.php" method="post">
+							<div class="input-text">
+								<p>用户名</p><i>请输入用户名或者手机号</i>
+							</div>
+							
+							<input type="text" name="name" id="name"/>
+							<div class="input-mima">
+								<p>密码</p>
+							</div>
+						
+							<input type="password" name="pswd" id="pswd"/>
+							<div class="input-mima">
+								<p>重复密码</p>
+							</div>
+							<input type="password" name="repeatPswd" id="repeatPswd"/>
+							
+							<input type="submit" name="submit-register" id="submit-register" value="立即注册" />
+							<input type="checkbox" id="register-checkbox"/>
+							<!--<div class="checkbox-txt">
+								
+							</div>-->
+							<i class="checkbox-txt">我已阅读并同意《寺库网用户注册协议》</i>
+						</form>
+					</div>
+					<div class="main-register-bot">						
+						<div class="register-find">
+							<p>已经是寺库会员？</p>
+							<a href="login.html" id = "login">立即登录</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="register-last">
+			<div id="last-con">
+				<div class="last-ul">
+					<ul id="last-ul1"></ul>
+				</div>
+				<div class="last-ul">
+					<ul id="last-ul2"></ul>
+				</div>
+				<div class="last-ul">
+					<ul id="last-ul3"></ul>
+				</div>
+				<div class="last-ul">
+					<ul id="last-ul4"></ul>
+				</div>
+			</div>
+		</div>
+		<div id="secoo-footer">
+			<div class="footer-con">
+				<div class="footer-top">
+					<img src="images/pcfooterbatb.png"/>
+					<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102001392" class="no-padding">京公安备11010102001392</a>
+					<i>京ICP证110119号 京ICP备09084709号-3</i>
+					<a href="http://www.secoo.com/listTop/180712_zlgl.shtml">ISO9001中国质量管理体系认证</a>
+					<a href="http://www.secoo.com/listTop/180712_publication.shtml">出版物经营许可证</a>
+					<a href="http://www.secoo.com/listTop/180712_foodBlicense.shtml">食品经营许可证</a>
+				</div>
+				<div class="footer-cen">
+					<i>客服电话：400-875-6789</i>
+					<i>COPYRIGHT © 2010-2018 北京寺库商贸有限公司 版权所有</i>
+				</div>
+				<div class="footer-bot">
+					<a href="http://www.secoo.com/listTop/180712_businessLicense.shtml"><img src="images/f_01.jpg"/></a>
+					<a href="https://ss.knet.cn/verifyseal.dll?sn=e16051911010263532a4zi000000&a=1&pa=0.6321878711618679"><img src="images/cnnic.png"/></a>
+					<a href="https://credit.cecdc.com/CX20141231006253006352.html"><img src="images/kexin.jpg"/></a>
+					<a href="http://www.bj.cyberpolice.cn/index.do#"><img src="images/f_03.jpg"/></a>
+					
+				</div>
+			</div>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/loginlast.js" type="text/javascript" charset="utf-8"></script>		
+	</body>	
+</html>

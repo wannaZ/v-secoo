@@ -1,0 +1,256 @@
+@import"common";
+.first-con,.main-con,#last-con,#footer-con{
+    width: 1200px;
+    margin: 0 auto;
+}
+body {
+    font-family: 宋体;
+}
+#login-first{
+    background: #323131;
+    height:70px;
+    .first-con{
+        width: 1200px;
+        img{
+            float: left;
+        }
+        ul{
+            width: 219px;
+            height: 70px;
+            float: left;
+            padding-left: 940px;
+            li{
+                float: left;
+                display: block;
+                width: 73px;
+                height: 70px;
+                color: #999;
+                line-height: 70px;
+                text-align: center;
+                a{
+                    color: #999;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+#login-main{
+    height: 782px;
+    background: #fdf8f4;        
+    .main-con{
+        width: 1200px;
+        height: 782px;
+        background: url(../images/login_03.jpg) no-repeat;
+        .main-none{
+            
+        }
+        .main-login{
+            width: 383px;
+            height: 494px;
+            margin-left: 824px;
+            background: #fff;
+            box-shadow:2px 2px 5px #999;
+            .main-login-hear{
+                width: 379px;
+                height: 100px;
+                a{
+                    float: left;
+                    padding-left: 78px;
+                    color: #666;
+                    font-size: 18px;
+                    padding-top: 32px;
+                }
+                a:hover{
+                    color: #f19108;
+                }
+            }
+            .main-login-input{
+                width: 379px;
+                height: 223px;
+                input{
+                    height: 48px;
+                    width: 298px;
+                    margin-left: 34px;
+                    padding-left: 10px;
+                    border: 1px solid #ccc;
+                }
+                p{
+                    font-size: 12px;
+                    float: left;
+                    margin-left: 5px;
+                    margin-top: 8px;
+                }
+                #submit-login{
+                    width: 310px;
+                    height: 50px;
+                    margin-top: 34px;
+                    background: #f19108;
+                    padding-left: 2px;
+                    color: #fff;
+                    font-size: 16px;
+                }
+            }
+            .main-login-input input:nth-child(2){
+                margin-top: 15px;
+            }
+            .main-login-input input:nth-child(3){
+                height: 14px;
+                width: 14px;
+                margin-top: 10px;
+                margin-left: 34px;
+                border: none;
+                float: left;                
+            }
+            .main-login-bot{
+                width: 345px;
+                height: 55px;
+                padding-top: 45px;
+                padding-left: 34px;
+                p{
+                    font-size: 14px;
+                    color: #999;
+                }
+                .login-wechar{
+                    width: 345px;
+                    height: 16px;  
+                    padding-top: 20px;                 
+                    img{
+                        width: 16px;
+                        height: 16px;
+                        float: left;
+                        padding-top: 3px;
+                    }
+                    i{
+                        font-size: 14px;
+                        color: #999;
+                        float: left;
+                        padding-left: 10px;
+                        padding-right: 22px;
+                    }
+                }                
+                i:hover{
+                    color: #f19108;
+                }
+                .login-find{
+                    width: 345px;
+                    height: 16px;
+                    padding-top: 30px;
+                    p{
+                        display: block;
+                        height: 16px;
+                        font-size: 14px;
+                        color: #999;
+                        float: left;
+                    }
+                    a{
+                        font-size: 14px;
+                        color: #666;
+                        float: left;
+                    }
+                    #register{
+                        padding-left: 5px;
+                        color: #f19108;
+                    }
+                    #findMima{
+                        padding-left: 68px;
+                    }
+                    #findMima:hover{
+                        color: #9c003f;
+                    }
+                }
+            }
+        }
+        .main-none{
+                width: 383px;
+                height: 209px;
+                margin-left: 824px;
+                background:#fdf8f4;
+        }
+    }
+}
+#login-last{
+    background: #f5f5f5;
+    #last-con{
+        height: 207px;
+        background: #f5f5f5;
+        .last-ul{
+            width: 235px;
+            height: 207px;
+            float:left;
+            ul{
+                height: 116px;
+                width: 207px;
+                float: left;
+                padding-top: 48px;
+                li:hover a{
+                    color: #f8a120;
+                }
+                a{
+                    display: block;
+                    padding-bottom: 14px;
+                    width: 207px;
+                    font-size: 14px;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+#secoo-footer{
+    background: #f5f5f5;
+    .footer-con{
+    height: 182px;
+    background: #f5f5f5;
+    .footer-top{
+        width: 1200px;
+        height: 22px;
+        img{
+            float: left;
+        }
+        a{
+            padding-left: 34px;
+            float: left;
+            font-size: 14px;
+            color: #000;
+        }
+        i{
+            padding-left: 34px;
+            float: left;
+            font-size: 14px;
+        }
+        .no-padding{
+            padding-left: 0;
+        }
+    }
+    .footer-top a:hover{
+        color: #f8a120;
+    }
+    .footer-cen{
+        padding-top: 18px;
+        height: 14px;
+        line-height: 14px;
+        i{
+            padding-right: 34px;
+            font-size: 14px;
+        }
+    }
+    .footer-bot{
+        width: 1200px;
+        height: 39px;
+        padding-top: 18px;
+        a{
+            float: left;
+            padding-right: 20px;
+            display: block;
+            width: 108px;
+            height: 40px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+    }
+}
+}

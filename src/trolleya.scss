@@ -1,0 +1,211 @@
+@import"common";
+body {
+    font-family: 宋体;
+    background: #f6f6f6;
+}
+.trolleya-logo-con,.trolleya-list-con{
+    margin: 0 auto;
+}
+#trolleya-logo{
+    height: 71px;
+    background: #323232;
+    .trolleya-logo-con{
+        width: 1202px;
+        height: 70px;        
+        img{
+            padding-left: 113px;
+            float: left;
+        }
+        .trolleya-logo-r{
+            width: 350px;
+            padding-left: 492px;
+            height: 70px;
+            float: left;
+        }
+    }
+}
+#trolleya-list{
+    background: #f6f6f6;
+    .trolleya-list-con{
+        width: 1202px;
+        .trolleya-list-header{
+            width: 990px;
+            height: 50px;
+            border: 1px solid #fff;
+            margin: 0 auto;
+            margin-top: 60px;
+            ul{
+                li{
+                    height: 50px;
+                    float: left;
+                    line-height: 50px;
+                    text-align: center;
+                    color: #999;
+                }
+                li:nth-child(1){
+                    width: 75px;
+                }
+                li:nth-child(2){
+                    width: 365px;
+                }
+                li:nth-child(3){
+                    width: 103px;
+                }
+                li:nth-child(4){
+                    width: 92px;
+                }
+                li:nth-child(5){
+                    width: 127px;
+                }
+                li:nth-child(6){
+                    width: 127px;
+                }
+                 li:nth-child(7){
+                    width: 101px;
+                }
+            }
+        }
+        .trolleya-shoping{
+            width: 990px;
+            background: #fdf0ef;
+            margin: 0 auto;
+            ul{
+                width: 991px;
+                border-bottom: 1px solid #ececec;
+                li{
+                    height: 117px;
+                    float: left;
+                    background: #fdf0ef;
+                    border-bottom: 1px solid #fff;
+                }
+                li:nth-child(1){
+                    width: 74px;
+                    border-left: 1px solid #fff;
+                    input{
+                        margin-top: 54px;
+                        margin-left: 28px;
+                        float: left;
+                    }
+                }
+                li:nth-child(2){
+                    width: 365px;
+                    img{
+                        width: 80px;
+                        height: 80px;
+                        margin-top: 20px;
+                        margin-left: 2px;
+                        float: left;
+                        border: 1px solid #ececec;
+                    }
+                    .trolleya-shoping-li2{
+                        width: 263px;
+                        height: 67px;
+                        padding-top: 21px;
+                        padding-left: 15px;
+                        float: left;
+                        a{
+                            display: block;
+                            width: 263px;
+                            height: 43px;
+                            line-height: 20px;
+                            color: #333;
+                            font-size: 12px;
+                            
+                            
+                        }
+                        .trolleya-shoping-span{
+                            display: block;
+                            width: 263px;
+                            height: 24px;
+                            font-size: 12px;
+                            color: #999;
+                        }
+                    }
+                }
+                li:nth-child(3){
+                    width: 103px;
+                    line-height: 68px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #333;
+                }
+                li:nth-child(4){
+                    width: 92px;
+                    line-height: 70px;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #333;
+                }
+                li:nth-child(5){
+                    width: 127px;
+                    button{
+                        width: 21px;
+                        height: 21px;
+                        margin-top: 27px;
+                        margin-left: 27px;
+                        background: #fff;
+                        border: 1px solid #ccc;
+                    }
+                    .trolleya-con-add{
+                        margin-left: 0;
+                    }
+                    input{
+                        width: 34px;
+                        height: 19px;
+                        text-align: center;
+                        border: 1px 0 solid #ccc;
+                    }
+                    button:hover{
+                        width:21px;
+                        height: 21px;
+                        border: 1px solid #ed3c3c;
+                        background: #ed3c3c;
+                    }
+                }
+                li:nth-child(6){
+                    width: 127px;
+                    line-height: 70px;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #e93b39;
+                }
+                li:nth-child(7){
+                    width: 101px;
+                    border-right: 1px solid #fff;
+                    p{
+                        width: 101px;
+                        text-align: center;
+                        display: block;
+                        line-height: 70px;
+                        font-size: 12px;
+                        color: #333;
+                    }
+                    p:hover{
+                        color: #e93b39;
+                    }
+                }
+            }
+        }
+        .trolleya-bugshop{
+            width: 990px;
+            height: 210px;
+            margin: 0 auto;
+            text-align: right;
+            padding-top: 150px;
+            p{
+                padding-right: 10px;
+                margin-top:6px;
+                font-size: 14px;
+            }
+            span{
+               position:relative;
+               top: 10px;
+               font-size: 16px;
+               i{
+                   font-size: 32px;
+                   color: red;
+               }
+            }
+        }     
+    }
+}

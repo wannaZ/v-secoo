@@ -1,0 +1,553 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, button {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: '微软雅黑'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*公共样式*/
+.header-con, .nav-con, .banner-con, .case-con, .recommend-con, #link-con, .footer-con {
+  width: 1200px;
+  margin: 0 auto; }
+
+/*header*/
+.header-con {
+  height: 130px; }
+
+body {
+  font-family: 宋体; }
+
+/*header-left*/
+.header-left {
+  width: 226px;
+  height: 85px;
+  padding-top: 22px;
+  float: left; }
+
+.header-l-img {
+  width: 85px;
+  height: 85px;
+  float: left;
+  padding-right: 5px; }
+
+.header-l-img img {
+  width: 100%;
+  height: 100%; }
+
+.header-left h2 {
+  font-size: 16px;
+  color: #000; }
+
+.header-left h3 {
+  font-size: 12px;
+  color: #000; }
+
+/*header-cen*/
+.header-cen {
+  width: 710px;
+  height: 100px;
+  padding-top: 15px;
+  float: left; }
+
+.header-c-img {
+  padding-left: 310px; }
+
+/*header-right*/
+.header-right {
+  width: 264px;
+  height: 113px;
+  padding-top: 18px;
+  float: left; }
+
+/*header-right-top*/
+.header-r-top {
+  width: 264px;
+  height: 12px; }
+
+.header-r-top li, a {
+  font-size: 12px;
+  color: #000;
+  float: left; }
+
+.header-r-top li:nth-child(1):hover a, .header-r-top li:nth-child(3):hover a, .header-r-top li:nth-child(5):hover a {
+  color: #f8a120; }
+
+.header-r-top li:nth-child(2) {
+  padding: 0 3px; }
+
+.header-r-top li:nth-child(3) {
+  padding-right: 30px; }
+
+.header-r-top li:nth-child(5) {
+  padding-left: 30px; }
+
+.header-r-top li span {
+  font-size: 12px;
+  color: #f9a181; }
+
+/*header-right-bottom*/
+.header-r-bottom {
+  padding-left: 178px;
+  padding-top: 40px;
+  font-size: 12px; }
+
+.header-r-bottom span {
+  color: #f8a120; }
+
+.icon-gouwuche {
+  display: block;
+  padding-left: 5px;
+  width: 20px;
+  height: 20px;
+  float: left;
+  color: #f8a120; }
+
+/*nav*/
+#secoo-nav {
+  background: #1a191e; }
+
+.nav-con {
+  height: 44px; }
+
+.nav-con ul {
+  width: 974px;
+  height: 38px;
+  float: left; }
+
+.nav-con ul li {
+  width: 88px;
+  height: 38px;
+  float: left;
+  text-align: left;
+  line-height: 40px; }
+
+.nav-con ul li a {
+  display: block;
+  color: #fff;
+  width: 88px;
+  font-size: 12px; }
+
+.nav-con ul li a:hover {
+  color: #f8a120; }
+
+.nav-con ul li:nth-child(1) a {
+  color: #f8a120; }
+
+.nav-con input {
+  width: 186px;
+  height: 38px;
+  float: left;
+  margin-top: 1px;
+  border: 0;
+  border: 1px solid #fff;
+  float: left; }
+
+.nav-con button {
+  width: 38px;
+  height: 40px;
+  margin-top: 1px;
+  border-left: 0;
+  border: 1px solid #fff;
+  outline: none;
+  background: url("../images/zzxxxz.png") repeat;
+  float: left; }
+
+/*list*/
+#LoutiNav {
+  width: 64px;
+  position: fixed;
+  top: 230px;
+  left: 1350px;
+  border: 1px solid #ddd;
+  display: none; }
+
+#LoutiNav ul li {
+  width: 64px;
+  height: 32px;
+  border-bottom: 1px dotted #DDDDDD;
+  list-style: none;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  line-height: 32px;
+  position: relative;
+  cursor: pointer; }
+
+#LoutiNav ul li span {
+  width: 64px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#LoutiNav ul li span {
+  display: none; }
+
+#LoutiNav ul li.last {
+  background: #999;
+  color: #fff; }
+
+#LoutiNav ul li.hover span {
+  background: #999;
+  color: #fff;
+  display: block; }
+
+#LoutiNav ul li.hover span.active {
+  background: #999;
+  color: #fff;
+  display: block; }
+
+#LoutiNav ul li span.active {
+  background: #fff;
+  color: #999;
+  display: block; }
+
+#header {
+  width: 1000px;
+  height: 1000px;
+  background: #cc6633;
+  margin: 0 auto; }
+
+#main {
+  width: 1203px;
+  margin: 0 auto; }
+
+#main .Louti {
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold; }
+
+.earrings {
+  width: 1204px;
+  height: 2850px; }
+  .earrings .Louti-earrings {
+    width: 1204px;
+    height: 94px;
+    background: url(../images/aaaz_03.jpg) no-repeat;
+    text-align: center; }
+    .earrings .Louti-earrings span {
+      font-size: 22px;
+      color: #666;
+      line-height: 94px; }
+  .earrings #earrings-case {
+    width: 1204px;
+    height: 2756px; }
+    .earrings #earrings-case .list-li {
+      width: 271px;
+      height: 390px;
+      float: left;
+      padding: 0 15px; }
+      .earrings #earrings-case .list-li .list-img {
+        width: 240px;
+        height: 240px;
+        margin-left: 17px;
+        padding-top: 25px; }
+      .earrings #earrings-case .list-li .list-a {
+        display: block;
+        width: 240px;
+        height: 30px;
+        padding-top: 45px;
+        margin-left: 17px;
+        font-size: 12px;
+        color: #999;
+        float: none !important; }
+      .earrings #earrings-case .list-li .list-p {
+        display: block;
+        color: #000 !important;
+        margin-left: 17px;
+        padding-top: 10px;
+        width: 240px;
+        height: 15px;
+        font-size: 14px;
+        font-weight: 900; }
+      .earrings #earrings-case .list-li .list-a:hover {
+        color: #9c003f;
+        opacity: 0.7; }
+    .earrings #earrings-case .list-li:hover {
+      background: #f5f5f5; }
+
+.ring {
+  width: 1204px;
+  height: 1300px; }
+  .ring .Louti-ring {
+    width: 1204px;
+    height: 94px;
+    background: url(../images/aaaz_03.jpg) no-repeat;
+    text-align: center; }
+    .ring .Louti-ring span {
+      font-size: 22px;
+      color: #666;
+      line-height: 94px; }
+  .ring #ring-case {
+    width: 1204px;
+    height: 1206px; }
+    .ring #ring-case .list-li {
+      width: 271px;
+      height: 390px;
+      float: left;
+      padding: 0 15px; }
+      .ring #ring-case .list-li .list-img {
+        width: 240px;
+        height: 240px;
+        margin-left: 17px;
+        padding-top: 25px; }
+      .ring #ring-case .list-li .list-a {
+        display: block;
+        width: 240px;
+        height: 30px;
+        padding-top: 45px;
+        margin-left: 17px;
+        font-size: 12px;
+        color: #999;
+        float: none !important; }
+      .ring #ring-case .list-li .list-a:hover {
+        color: #9c003f;
+        opacity: 0.7; }
+      .ring #ring-case .list-li .list-p {
+        display: block;
+        color: #000 !important;
+        margin-left: 17px;
+        padding-top: 10px;
+        width: 240px;
+        height: 15px;
+        font-size: 14px;
+        font-weight: 900; }
+    .ring #ring-case .list-li:hover {
+      background: #f5f5f5; }
+
+.bracelet {
+  width: 1204px;
+  height: 2100px; }
+  .bracelet .Louti-bracelet {
+    width: 1204px;
+    height: 94px;
+    background: url(../images/aaaz_03.jpg) no-repeat;
+    text-align: center; }
+    .bracelet .Louti-bracelet span {
+      font-size: 22px;
+      color: #666;
+      line-height: 94px; }
+  .bracelet #bracelet-case {
+    width: 1204px;
+    height: 2006px; }
+    .bracelet #bracelet-case .list-li {
+      width: 271px;
+      height: 390px;
+      float: left;
+      padding: 0 15px; }
+      .bracelet #bracelet-case .list-li .list-img {
+        width: 240px;
+        height: 240px;
+        margin-left: 17px;
+        padding-top: 25px; }
+      .bracelet #bracelet-case .list-li .list-a {
+        display: block;
+        width: 240px;
+        height: 30px;
+        padding-top: 45px;
+        margin-left: 17px;
+        font-size: 12px;
+        color: #999;
+        float: none !important; }
+      .bracelet #bracelet-case .list-li .list-a:hover {
+        color: #9c003f;
+        opacity: 0.7; }
+      .bracelet #bracelet-case .list-li .list-p {
+        display: block;
+        color: #000 !important;
+        margin-left: 17px;
+        padding-top: 10px;
+        width: 240px;
+        height: 15px;
+        font-size: 14px;
+        font-weight: 900; }
+    .bracelet #bracelet-case .list-li:hover {
+      background: #f5f5f5; }
+
+.necklace {
+  width: 1204px;
+  height: 2230px; }
+  .necklace .Louti-necklace {
+    width: 1204px;
+    height: 94px;
+    background: url(../images/aaaz_03.jpg) no-repeat;
+    text-align: center; }
+    .necklace .Louti-necklace span {
+      font-size: 22px;
+      color: #666;
+      line-height: 94px; }
+  .necklace #necklace-case {
+    width: 1204px;
+    height: 2136px; }
+    .necklace #necklace-case .list-li {
+      width: 271px;
+      height: 390px;
+      float: left;
+      padding: 0 15px; }
+      .necklace #necklace-case .list-li .list-img {
+        width: 240px;
+        height: 240px;
+        margin-left: 17px;
+        padding-top: 25px; }
+      .necklace #necklace-case .list-li .list-a {
+        display: block;
+        width: 240px;
+        height: 30px;
+        padding-top: 45px;
+        margin-left: 17px;
+        font-size: 12px;
+        color: #999;
+        float: none !important; }
+      .necklace #necklace-case .list-li .list-a:hover {
+        color: #9c003f;
+        opacity: 0.7; }
+      .necklace #necklace-case .list-li .list-p {
+        display: block;
+        color: #000 !important;
+        margin-left: 17px;
+        padding-top: 10px;
+        width: 240px;
+        height: 15px;
+        font-size: 14px;
+        font-weight: 900; }
+    .necklace #necklace-case .list-li:hover {
+      background: #f5f5f5; }
+
+/*link*/
+#secoo-link {
+  background: #f5f5f5; }
+
+#link-con {
+  height: 207px;
+  background: #f5f5f5; }
+  #link-con .link-ul {
+    width: 235px;
+    height: 207px;
+    float: left; }
+    #link-con .link-ul ul {
+      height: 116px;
+      width: 207px;
+      float: left;
+      padding-top: 48px; }
+      #link-con .link-ul ul li:hover a {
+        color: #f8a120; }
+      #link-con .link-ul ul a {
+        display: block;
+        padding-bottom: 14px;
+        width: 207px;
+        font-size: 14px; }
+
+/*footer*/
+#secoo-footer {
+  background: #f5f5f5; }
+
+.footer-con {
+  height: 182px;
+  background: #f5f5f5; }
+  .footer-con .footer-top {
+    width: 1200px;
+    height: 22px; }
+    .footer-con .footer-top img {
+      float: left; }
+    .footer-con .footer-top a {
+      padding-left: 34px;
+      float: left;
+      font-size: 14px; }
+    .footer-con .footer-top i {
+      padding-left: 34px;
+      float: left;
+      font-size: 14px; }
+    .footer-con .footer-top .no-padding {
+      padding-left: 0; }
+  .footer-con .footer-top a:hover {
+    color: #f8a120; }
+  .footer-con .footer-cen {
+    padding-top: 18px;
+    height: 14px;
+    line-height: 14px; }
+    .footer-con .footer-cen i {
+      padding-right: 34px;
+      font-size: 14px; }
+  .footer-con .footer-bot {
+    width: 1200px;
+    height: 39px;
+    padding-top: 18px; }
+    .footer-con .footer-bot a {
+      float: left;
+      padding-right: 20px;
+      display: block;
+      width: 108px;
+      height: 40px; }
+      .footer-con .footer-bot a img {
+        width: 100%;
+        height: 100%; }
+
+#down-pull {
+  width: 100%;
+  height: 300px;
+  padding: 20px 0;
+  background: #fff;
+  opacity: 0.9;
+  position: absolute;
+  top: 174px;
+  display: none;
+  border-bottom: 2px solid orange; }
+  #down-pull ul {
+    width: 250px;
+    padding-right: 150px;
+    float: left; }
+    #down-pull ul li {
+      width: 125px;
+      height: 15px;
+      float: left;
+      font-size: 14px;
+      padding-top: 15px; }
+  #down-pull #classify li:nth-of-type(1) {
+    width: 250px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 900; }
+  #down-pull #brand li:nth-of-type(1) {
+    width: 250px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 900; }
+  #down-pull #hot li:nth-of-type(1) {
+    width: 250px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 900; }
+  #down-pull ul:nth-child(1) {
+    padding-left: 106px; }

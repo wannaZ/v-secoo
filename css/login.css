@@ -1,0 +1,248 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, button {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: '微软雅黑'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*公共样式*/
+.header-con, .nav-con, .banner-con, .case-con, .recommend-con, #link-con, .footer-con {
+  width: 1200px;
+  margin: 0 auto; }
+
+.first-con, .main-con, #last-con, #footer-con {
+  width: 1200px;
+  margin: 0 auto; }
+
+body {
+  font-family: 宋体; }
+
+#login-first {
+  background: #323131;
+  height: 70px; }
+  #login-first .first-con {
+    width: 1200px; }
+    #login-first .first-con img {
+      float: left; }
+    #login-first .first-con ul {
+      width: 219px;
+      height: 70px;
+      float: left;
+      padding-left: 940px; }
+      #login-first .first-con ul li {
+        float: left;
+        display: block;
+        width: 73px;
+        height: 70px;
+        color: #999;
+        line-height: 70px;
+        text-align: center; }
+        #login-first .first-con ul li a {
+          color: #999;
+          font-size: 14px; }
+
+#login-main {
+  height: 782px;
+  background: #fdf8f4; }
+  #login-main .main-con {
+    width: 1200px;
+    height: 782px;
+    background: url(../images/login_03.jpg) no-repeat; }
+    #login-main .main-con .main-login {
+      width: 383px;
+      height: 494px;
+      margin-left: 824px;
+      background: #fff;
+      box-shadow: 2px 2px 5px #999; }
+      #login-main .main-con .main-login .main-login-hear {
+        width: 379px;
+        height: 100px; }
+        #login-main .main-con .main-login .main-login-hear a {
+          float: left;
+          padding-left: 78px;
+          color: #666;
+          font-size: 18px;
+          padding-top: 32px; }
+        #login-main .main-con .main-login .main-login-hear a:hover {
+          color: #f19108; }
+      #login-main .main-con .main-login .main-login-input {
+        width: 379px;
+        height: 223px; }
+        #login-main .main-con .main-login .main-login-input input {
+          height: 48px;
+          width: 298px;
+          margin-left: 34px;
+          padding-left: 10px;
+          border: 1px solid #ccc; }
+        #login-main .main-con .main-login .main-login-input p {
+          font-size: 12px;
+          float: left;
+          margin-left: 5px;
+          margin-top: 8px; }
+        #login-main .main-con .main-login .main-login-input #submit-login {
+          width: 310px;
+          height: 50px;
+          margin-top: 34px;
+          background: #f19108;
+          padding-left: 2px;
+          color: #fff;
+          font-size: 16px; }
+      #login-main .main-con .main-login .main-login-input input:nth-child(2) {
+        margin-top: 15px; }
+      #login-main .main-con .main-login .main-login-input input:nth-child(3) {
+        height: 14px;
+        width: 14px;
+        margin-top: 10px;
+        margin-left: 34px;
+        border: none;
+        float: left; }
+      #login-main .main-con .main-login .main-login-bot {
+        width: 345px;
+        height: 55px;
+        padding-top: 45px;
+        padding-left: 34px; }
+        #login-main .main-con .main-login .main-login-bot p {
+          font-size: 14px;
+          color: #999; }
+        #login-main .main-con .main-login .main-login-bot .login-wechar {
+          width: 345px;
+          height: 16px;
+          padding-top: 20px; }
+          #login-main .main-con .main-login .main-login-bot .login-wechar img {
+            width: 16px;
+            height: 16px;
+            float: left;
+            padding-top: 3px; }
+          #login-main .main-con .main-login .main-login-bot .login-wechar i {
+            font-size: 14px;
+            color: #999;
+            float: left;
+            padding-left: 10px;
+            padding-right: 22px; }
+        #login-main .main-con .main-login .main-login-bot i:hover {
+          color: #f19108; }
+        #login-main .main-con .main-login .main-login-bot .login-find {
+          width: 345px;
+          height: 16px;
+          padding-top: 30px; }
+          #login-main .main-con .main-login .main-login-bot .login-find p {
+            display: block;
+            height: 16px;
+            font-size: 14px;
+            color: #999;
+            float: left; }
+          #login-main .main-con .main-login .main-login-bot .login-find a {
+            font-size: 14px;
+            color: #666;
+            float: left; }
+          #login-main .main-con .main-login .main-login-bot .login-find #register {
+            padding-left: 5px;
+            color: #f19108; }
+          #login-main .main-con .main-login .main-login-bot .login-find #findMima {
+            padding-left: 68px; }
+          #login-main .main-con .main-login .main-login-bot .login-find #findMima:hover {
+            color: #9c003f; }
+    #login-main .main-con .main-none {
+      width: 383px;
+      height: 209px;
+      margin-left: 824px;
+      background: #fdf8f4; }
+
+#login-last {
+  background: #f5f5f5; }
+  #login-last #last-con {
+    height: 207px;
+    background: #f5f5f5; }
+    #login-last #last-con .last-ul {
+      width: 235px;
+      height: 207px;
+      float: left; }
+      #login-last #last-con .last-ul ul {
+        height: 116px;
+        width: 207px;
+        float: left;
+        padding-top: 48px; }
+        #login-last #last-con .last-ul ul li:hover a {
+          color: #f8a120; }
+        #login-last #last-con .last-ul ul a {
+          display: block;
+          padding-bottom: 14px;
+          width: 207px;
+          font-size: 14px;
+          color: #000; }
+
+#secoo-footer {
+  background: #f5f5f5; }
+  #secoo-footer .footer-con {
+    height: 182px;
+    background: #f5f5f5; }
+    #secoo-footer .footer-con .footer-top {
+      width: 1200px;
+      height: 22px; }
+      #secoo-footer .footer-con .footer-top img {
+        float: left; }
+      #secoo-footer .footer-con .footer-top a {
+        padding-left: 34px;
+        float: left;
+        font-size: 14px;
+        color: #000; }
+      #secoo-footer .footer-con .footer-top i {
+        padding-left: 34px;
+        float: left;
+        font-size: 14px; }
+      #secoo-footer .footer-con .footer-top .no-padding {
+        padding-left: 0; }
+    #secoo-footer .footer-con .footer-top a:hover {
+      color: #f8a120; }
+    #secoo-footer .footer-con .footer-cen {
+      padding-top: 18px;
+      height: 14px;
+      line-height: 14px; }
+      #secoo-footer .footer-con .footer-cen i {
+        padding-right: 34px;
+        font-size: 14px; }
+    #secoo-footer .footer-con .footer-bot {
+      width: 1200px;
+      height: 39px;
+      padding-top: 18px; }
+      #secoo-footer .footer-con .footer-bot a {
+        float: left;
+        padding-right: 20px;
+        display: block;
+        width: 108px;
+        height: 40px; }
+        #secoo-footer .footer-con .footer-bot a img {
+          width: 100%;
+          height: 100%; }

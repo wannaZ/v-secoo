@@ -1,0 +1,528 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input, button {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: '微软雅黑'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/*公共样式*/
+.header-con, .nav-con, .banner-con, .case-con, .recommend-con, #link-con, .footer-con {
+  width: 1200px;
+  margin: 0 auto; }
+
+/*header*/
+.header-con {
+  height: 130px; }
+
+body {
+  font-family: 宋体; }
+
+/*header-left*/
+.header-left {
+  width: 226px;
+  height: 85px;
+  padding-top: 22px;
+  float: left; }
+
+.header-l-img {
+  width: 85px;
+  height: 85px;
+  float: left;
+  padding-right: 5px; }
+
+.header-l-img img {
+  width: 100%;
+  height: 100%; }
+
+.header-left h2 {
+  font-size: 16px;
+  color: #000; }
+
+.header-left h3 {
+  font-size: 12px;
+  color: #000; }
+
+/*header-cen*/
+.header-cen {
+  width: 710px;
+  height: 100px;
+  padding-top: 15px;
+  float: left; }
+
+.header-c-img {
+  padding-left: 310px; }
+
+/*header-right*/
+.header-right {
+  width: 264px;
+  height: 113px;
+  padding-top: 18px;
+  float: left; }
+
+/*header-right-top*/
+.header-r-top {
+  width: 264px;
+  height: 12px; }
+
+.header-r-top li, a {
+  font-size: 12px;
+  color: #000;
+  float: left; }
+
+.header-r-top li:nth-child(1):hover a, .header-r-top li:nth-child(3):hover a, .header-r-top li:nth-child(5):hover a {
+  color: #f8a120; }
+
+.header-r-top li:nth-child(2) {
+  padding: 0 3px; }
+
+.header-r-top li:nth-child(3) {
+  padding-right: 30px; }
+
+.header-r-top li:nth-child(5) {
+  padding-left: 30px; }
+
+.header-r-top li span {
+  font-size: 12px;
+  color: #f9a181; }
+
+/*header-right-bottom*/
+.header-r-bottom {
+  padding-left: 178px;
+  padding-top: 40px;
+  font-size: 12px; }
+
+.header-r-bottom span {
+  color: #f8a120; }
+
+.icon-gouwuche {
+  display: block;
+  padding-left: 5px;
+  width: 20px;
+  height: 20px;
+  float: left;
+  color: #f8a120; }
+
+/*nav*/
+#secoo-nav {
+  background: #1a191e; }
+
+.nav-con {
+  height: 44px; }
+
+.nav-con ul {
+  width: 974px;
+  height: 38px;
+  float: left; }
+
+.nav-con ul li {
+  width: 88px;
+  height: 38px;
+  float: left;
+  text-align: left;
+  line-height: 40px; }
+
+.nav-con ul li a {
+  display: block;
+  color: #fff;
+  width: 88px;
+  font-size: 12px; }
+
+.nav-con ul li a:hover {
+  color: #f8a120; }
+
+.nav-con ul li:nth-child(1) a {
+  color: #f8a120; }
+
+.nav-con input {
+  width: 186px;
+  height: 38px;
+  float: left;
+  margin-top: 1px;
+  border: 0;
+  border: 1px solid #fff;
+  float: left; }
+
+.nav-con button {
+  width: 38px;
+  height: 40px;
+  margin-top: 1px;
+  border-left: 0;
+  border: 1px solid #fff;
+  outline: none;
+  background: url("../images/zzxxxz.png") repeat;
+  float: left; }
+
+#minute-header {
+  height: 62px;
+  background: #ededed; }
+  #minute-header .minute-header-con {
+    width: 1203px;
+    height: 62px;
+    margin: 0 auto; }
+    #minute-header .minute-header-con #minute-header-a {
+      width: 1203px;
+      height: 20px;
+      padding-top: 24px; }
+      #minute-header .minute-header-con #minute-header-a a {
+        float: left;
+        padding-top: 1px; }
+      #minute-header .minute-header-con #minute-header-a a:hover {
+        color: red; }
+      #minute-header .minute-header-con #minute-header-a span {
+        float: left;
+        padding: 0 5px; }
+
+#minute-explain {
+  height: 593px;
+  background: #ededed; }
+  #minute-explain .minute-explain-con {
+    width: 1203px;
+    height: 592px;
+    background: #fff;
+    margin: 0 auto; }
+    #minute-explain .minute-explain-con .minute-explain-leftUl {
+      width: 82px;
+      height: 410px;
+      padding-top: 40px;
+      padding-left: 40px;
+      float: left; }
+      #minute-explain .minute-explain-con .minute-explain-leftUl li {
+        width: 81px;
+        height: 81px;
+        border: 1px solid #ccc;
+        border-bottom: none; }
+        #minute-explain .minute-explain-con .minute-explain-leftUl li img {
+          display: block;
+          width: 77px;
+          height: 77px;
+          padding: 2px; }
+      #minute-explain .minute-explain-con .minute-explain-leftUl li:hover {
+        background: url(../images/background.png) no-repeat; }
+    #minute-explain .minute-explain-con #minute-explain-leftImg {
+      width: 400px;
+      height: 407px;
+      margin-top: 40px;
+      border: 1px solid #ccc;
+      float: left;
+      position: relative; }
+      #minute-explain .minute-explain-con #minute-explain-leftImg #explain-img {
+        width: 400px;
+        height: 407px;
+        position: relative; }
+        #minute-explain .minute-explain-con #minute-explain-leftImg #explain-img img {
+          width: 400px;
+          height: 407px; }
+        #minute-explain .minute-explain-con #minute-explain-leftImg #explain-img #explain-layer {
+          width: 50px;
+          height: 50px;
+          border: 1px solid #000;
+          background: #fff;
+          opacity: 0.3;
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: none; }
+        #minute-explain .minute-explain-con #minute-explain-leftImg #explain-img #explain-mark {
+          width: 400px;
+          height: 407px;
+          position: absolute;
+          z-index: 2;
+          left: 0px;
+          top: 0px;
+          background: red;
+          opacity: 0; }
+      #minute-explain .minute-explain-con #minute-explain-leftImg #explain-bigPic {
+        position: absolute;
+        top: -1px;
+        left: 400px;
+        width: 400px;
+        height: 407px;
+        background: #fff;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        display: none; }
+        #minute-explain .minute-explain-con #minute-explain-leftImg #explain-bigPic img {
+          width: 550px;
+          height: 550px;
+          position: absolute;
+          top: -30px;
+          left: -80px; }
+    #minute-explain .minute-explain-con #minute-explain-right {
+      width: 651px;
+      height: 552px;
+      padding-top: 40px;
+      padding-left: 28px;
+      float: left; }
+      #minute-explain .minute-explain-con #minute-explain-right #minute-explain-rightp {
+        width: 652px;
+        height: 22px;
+        padding-left: 23px; }
+      #minute-explain .minute-explain-con #minute-explain-right .explain-none {
+        width: 652px;
+        height: 41px;
+        background: url(../images/Lana2-in-1EarJacket_03.jpg) no-repeat; }
+      #minute-explain .minute-explain-con #minute-explain-right .explain-price {
+        width: 652px;
+        height: 128px; }
+        #minute-explain .minute-explain-con #minute-explain-right .explain-price .explain-priceUl1 {
+          width: 99px;
+          height: 127px;
+          float: left; }
+          #minute-explain .minute-explain-con #minute-explain-right .explain-price .explain-priceUl1 li {
+            width: 99px;
+            height: 32px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-left: 23px;
+            line-height: 34px; }
+        #minute-explain .minute-explain-con #minute-explain-right .explain-price .explain-priceUl2 {
+          width: 553px;
+          height: 127px;
+          float: left; }
+          #minute-explain .minute-explain-con #minute-explain-right .explain-price .explain-priceUl2 li {
+            width: 553px;
+            height: 32px;
+            font-size: 12px;
+            padding-top: 2px;
+            padding-left: 30px;
+            line-height: 34px; }
+          #minute-explain .minute-explain-con #minute-explain-right .explain-price .explain-priceUl2 li:nth-child(1) {
+            font-size: 30px;
+            color: #e93a38; }
+      #minute-explain .minute-explain-con #minute-explain-right .minute-color {
+        width: 652px;
+        height: 37px; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-color span {
+          display: block;
+          width: 99px;
+          height: 37px;
+          float: left;
+          line-height: 37px;
+          font-size: 12px;
+          padding-left: 23px; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-color .minute-color-img {
+          width: 523px;
+          height: 37px;
+          float: left; }
+          #minute-explain .minute-explain-con #minute-explain-right .minute-color .minute-color-img .minute-color-pic {
+            width: 37px;
+            height: 37px;
+            border: 1px solid #ccc;
+            border-spacing: border-box; }
+            #minute-explain .minute-explain-con #minute-explain-right .minute-color .minute-color-img .minute-color-pic img {
+              width: 36px;
+              height: 36px; }
+      #minute-explain .minute-explain-con #minute-explain-right .minute-shop {
+        width: 652px;
+        height: 23px;
+        padding: 20px 0 30px 23px; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-shop span {
+          display: block;
+          width: 99px;
+          height: 23px;
+          float: left;
+          line-height: 23px;
+          font-size: 12px; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-shop .minute-shop-input {
+          width: 80px;
+          height: 23px;
+          float: left; }
+          #minute-explain .minute-explain-con #minute-explain-right .minute-shop .minute-shop-input button {
+            width: 21px;
+            height: 21px;
+            border: 1px solid #ccc; }
+          #minute-explain .minute-explain-con #minute-explain-right .minute-shop .minute-shop-input input {
+            width: 34px;
+            height: 19px;
+            text-align: center;
+            border: 1px 0 solid #ccc; }
+          #minute-explain .minute-explain-con #minute-explain-right .minute-shop .minute-shop-input button:hover {
+            width: 21px;
+            height: 21px;
+            border: 1px solid deepskyblue;
+            background: deepskyblue; }
+      #minute-explain .minute-explain-con #minute-explain-right .minute-button {
+        width: 652px;
+        height: 180px; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-button img {
+          width: 161px;
+          height: 161px;
+          padding-left: 32px;
+          float: left; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-button #minute-button-buy {
+          width: 158px;
+          height: 45px;
+          background: #e93a38;
+          border: none;
+          float: left;
+          cursor: pointer;
+          margin-top: 5px;
+          margin-left: 23px; }
+          #minute-explain .minute-explain-con #minute-explain-right .minute-button #minute-button-buy a {
+            width: 158px;
+            height: 45px;
+            color: #fff;
+            font-size: 14px;
+            line-height: 45px;
+            text-align: center; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-button #minute-button-buy:hover {
+          background: #e1100d; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-button #minute-button-trolley {
+          width: 156px;
+          height: 45px;
+          background: #fff;
+          cursor: pointer;
+          border: 2px solid #e93a38;
+          margin-top: 5px;
+          margin-left: 23px; }
+          #minute-explain .minute-explain-con #minute-explain-right .minute-button #minute-button-trolley a {
+            width: 156px;
+            height: 43px;
+            color: #e93a38;
+            font-size: 14px;
+            line-height: 40px;
+            text-align: center; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-button #minute-button-trolley:hover {
+          border: 2px solid #e1100d; }
+        #minute-explain .minute-explain-con #minute-explain-right .minute-button #minute-button-trolley:hover a {
+          color: #e1100d; }
+
+/*link*/
+#secoo-link {
+  background: #f5f5f5; }
+
+#link-con {
+  height: 207px;
+  background: #f5f5f5; }
+  #link-con .link-ul {
+    width: 235px;
+    height: 207px;
+    float: left; }
+    #link-con .link-ul ul {
+      height: 116px;
+      width: 207px;
+      float: left;
+      padding-top: 48px; }
+      #link-con .link-ul ul li:hover a {
+        color: #f8a120; }
+      #link-con .link-ul ul a {
+        display: block;
+        padding-bottom: 14px;
+        width: 207px;
+        font-size: 14px; }
+
+/*footer*/
+#secoo-footer {
+  background: #f5f5f5; }
+
+.footer-con {
+  height: 182px;
+  background: #f5f5f5; }
+  .footer-con .footer-top {
+    width: 1200px;
+    height: 22px; }
+    .footer-con .footer-top img {
+      float: left; }
+    .footer-con .footer-top a {
+      padding-left: 34px;
+      float: left;
+      font-size: 14px; }
+    .footer-con .footer-top i {
+      padding-left: 34px;
+      float: left;
+      font-size: 14px; }
+    .footer-con .footer-top .no-padding {
+      padding-left: 0; }
+  .footer-con .footer-top a:hover {
+    color: #f8a120; }
+  .footer-con .footer-cen {
+    padding-top: 18px;
+    height: 14px;
+    line-height: 14px; }
+    .footer-con .footer-cen i {
+      padding-right: 34px;
+      font-size: 14px; }
+  .footer-con .footer-bot {
+    width: 1200px;
+    height: 39px;
+    padding-top: 18px; }
+    .footer-con .footer-bot a {
+      float: left;
+      padding-right: 20px;
+      display: block;
+      width: 108px;
+      height: 40px; }
+      .footer-con .footer-bot a img {
+        width: 100%;
+        height: 100%; }
+
+#down-pull {
+  width: 100%;
+  height: 250px;
+  padding: 20px 0;
+  background: #fff;
+  opacity: 0.9;
+  position: absolute;
+  top: 174px;
+  display: none;
+  margin: 0 auto;
+  border-bottom: 2px solid orange; }
+  #down-pull ul {
+    width: 250px;
+    padding-right: 150px;
+    float: left; }
+    #down-pull ul li {
+      width: 125px;
+      height: 15px;
+      float: left;
+      font-size: 14px;
+      padding-top: 15px; }
+  #down-pull #classify li:nth-of-type(1) {
+    width: 250px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 900; }
+  #down-pull #brand li:nth-of-type(1) {
+    width: 250px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 900; }
+  #down-pull #hot li:nth-of-type(1) {
+    width: 250px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 900; }
+  #down-pull ul:nth-child(1) {
+    padding-left: 106px; }
